@@ -27,6 +27,10 @@ requirements:
 test:
   imports:
     - flask_json
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   license_family: BSD
